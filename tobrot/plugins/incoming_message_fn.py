@@ -162,7 +162,7 @@ async def incoming_youtube_dl_f(client, message):
     LOGGER.info(cf_name)
     if dl_url is not None:
         await i_m_sefg.edit_text("<b>extracting links</b>")
-        current_user_id = message.from_user
+        current_user_id = message.from_user.id
         # create an unique directory
         user_working_dir = os.path.join(DOWNLOAD_LOCATION, str(current_user_id))
         # create download directory, if not exist
