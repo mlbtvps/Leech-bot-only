@@ -4,7 +4,7 @@
 
 # the logging things
 import pyrogram
-from pyrogram.types import InlineKeyboardButton
+from pyrogram.types import pyrogram.InlineKeyboardButton
 import logging
 logging.basicConfig(
     level=logging.DEBUG,
