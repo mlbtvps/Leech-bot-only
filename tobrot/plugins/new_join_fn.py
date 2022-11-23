@@ -4,7 +4,7 @@
 
 # the logging things
 import pyrogram
-from pyrogram.types import pyrogram.InlineKeyboardButton
+from pyrogram.types import pyrogram InlineKeyboardButton
 import logging
 logging.basicConfig(
     level=logging.DEBUG,
@@ -36,12 +36,12 @@ async def new_join_f(client, message):
 async def rename_message_f(client, message):
     inline_keyboard = []
     inline_keyboard.append([
-        pyrogram.InlineKeyboardButton(
+        InlineKeyboardButton(
             text="Rename bots",
             url="https://t.me/Mai_bOTs/17"
         )
     ])
-    reply_markup = pyrogram.InlineKeyboardMarkup(inline_keyboard)
+    reply_markup = InlineKeyboardMarkup(inline_keyboard)
     await message.reply_text(
         "please check @Mai_bOTs",
         quote=True,
@@ -55,7 +55,7 @@ async def help_message_f(client, message):
             url="https://t.me/Mai_bOTs"
         )
     ])
-    reply_markup = pyrogram.InlineKeyboardMarkup(inline_keyboard)
+    reply_markup = InlineKeyboardMarkup(inline_keyboard)
     await message.reply_text(
         "Please Read The Pinned Message For Any Help",
         quote=True,
