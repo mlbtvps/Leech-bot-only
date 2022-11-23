@@ -3,6 +3,8 @@
 # (c) Shrimadhav U K
 
 # the logging things
+import pyrogram
+from pyrogram.types import InlineKeyboardButton
 import logging
 logging.basicConfig(
     level=logging.DEBUG,
@@ -11,7 +13,6 @@ logging.basicConfig(
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 LOGGER = logging.getLogger(__name__)
 
-import pyrogram
 
 
 from tobrot import (
