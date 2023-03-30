@@ -17,7 +17,7 @@
   "repository": "https://github.com/No-OnE-Kn0wS-Me/LeechToFile",
   "success_url": "https://t.me/leeching_group",
   "website": "https://github.com/No-OnE-Kn0wS-Me",
-  "stack": "heroku-20",
+  "stack": "heroku-19",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode",
